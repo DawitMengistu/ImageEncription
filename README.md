@@ -4,9 +4,7 @@ A Processing skatch to encrypt  you images.
 
 ## how it works?
 
-first it arrange the pixels into random order 
-then change the the order in to pixels (rgb)
-and add those pixels into the image
+The algorithm works by first randomly rearranging the pixels in the image vertically. This creates a scrambled image that is difficult to recognize. To rearrange the pixels back into their original order, the algorithm adds an additional single pixel of height to the image. This allows the algorithm to track the original position of each pixel and rearrange them back into the correct order.
 
 ![Capture](https://user-images.githubusercontent.com/107931523/174980421-5546df46-488e-4a95-b7ec-3c6b3f02f881.PNG)
 
